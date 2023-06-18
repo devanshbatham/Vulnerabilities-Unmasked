@@ -6,7 +6,8 @@
  
  
  
- ## XSS
+ 
+ ## Cross-Site Scripting (XSS)
 
 Imagine you have a toy box where you and your friends can put your favorite toys in and take them out whenever you want. Each of you can only take out your own toys.
 
@@ -15,7 +16,7 @@ One day, a sneaky kid comes along and puts a toy robot in the box that looks lik
 In the internet world, the toy box is a website, and the toys are pieces of information. The sneaky kid is a hacker who puts a "bad" piece of code (like the toy robot) into the website. When you or your friends visit the website, that "bad" code runs on your computer or device and does things you don't want, like showing you ads or stealing your information. This is called Cross-Site Scripting, or XSS for short.
 
 
- ## CSRF
+ ## Cross-Site Request Forgery (CSRF)
  
 Imagine you have a secret password to open your toy box, and only you and your parents know the password. You can use the password to open the toy box, put toys in, or take toys out.
 
@@ -23,7 +24,7 @@ One day, while you're playing outside, a sneaky kid comes along and tricks you i
 
 In the internet world, the toy box is a website, and the password is your login information. The sneaky kid is a hacker who tricks you into doing something on the website (like clicking a button) that you didn't mean to do. This action gives the hacker access to your account or allows them to make changes on your behalf without your permission. This is called Cross-Site Request Forgery, or CSRF for short.
 
-## SQLi
+## SQL Injection
 
 Imagine you have a magic notebook that can do what you ask when you write special sentences in it. You can ask the notebook to show you your toys by writing "Show me my toys," and the notebook will list all your toys.
 
@@ -58,7 +59,7 @@ One day, while playing on the swings, you find a helper's badge that they droppe
 In the internet world, the playground is like a computer system or website, and the special badge is like an access level or permission that lets certain users do more things. Privilege Escalation is when someone, like a hacker, finds a way to get more access or permissions than they should have. This allows them to do things they normally wouldn't be allowed to do, like change settings or access private information.
 
 
-## RBAC Issues
+## Role-Based Access Control (RBAC) Vulnerabilities
 
 Imagine your school has a big library with lots of books, and there are different people with different jobs to help take care of the library. There's a librarian who can check out books to kids, an assistant librarian who helps put books back on the shelves, and a library helper who can help clean up and organize the library.
 
@@ -72,10 +73,20 @@ Now the new student can do things they're not supposed to, like checking out boo
 
 In the internet world, the library is like a computer system or website, and the special jobs are the roles in Role-Based Access Control (RBAC). An RBAC vulnerability is when there's a mistake or weakness in the system that gives out the roles. This can accidentally give users more permissions or access than they should have, which can lead to problems and security risks in the system.
 
-## SSRF
+## Server-Side Request Forgery (SSRF)
 
 Imagine your school has a special robot that can go to the store and buy snacks for the teachers. The teachers write down what they want on a list, and the robot follows the list to get the snacks. The robot is only allowed to go to the store and back to school, and it can't go anywhere else.
 
 One day, a sneaky kid finds out about the robot and decides to trick it. They write down their own list, asking the robot to go to their house and bring back some of their favorite toys. The robot doesn't know any better, so it follows the list and brings the toys back to the sneaky kid.
 
 In the internet world, the special robot is like a server that can make requests to other websites or services. The teachers' list is like a user's request. SSRF, or Server-Side Request Forgery, is a vulnerability where a sneaky person, like a hacker, tricks the server into making requests it shouldn't. This can cause problems and security risks, like accessing private information or services that should be off-limits.
+
+## Vulnerable and Outdated Components 
+
+Imagine you have a bicycle that you love to ride around your neighborhood. Your bicycle has many parts, like the wheels, the brakes, and the chain. Over time, some of these parts can get old and worn out, which can make your bicycle less safe to ride. For example, if your brakes are too old, they might not work well and could make it hard for you to stop.
+
+One day, your parents find out about a new and better type of brakes that can make your bicycle safer. They tell you it's important to replace the old brakes with the new ones, so you don't have any accidents while riding your bike.
+
+In the internet world, your bicycle is like a computer system or website, and the parts are like the software components that help it work. Vulnerable and Outdated Components are parts of the software that have known weaknesses or are no longer being updated. These can make the system less secure and more likely to be attacked by hackers. To keep the system safe, it's important to replace these vulnerable components with newer, more secure versions, just like upgrading your bicycle's brakes to stay safe while riding.
+
+
