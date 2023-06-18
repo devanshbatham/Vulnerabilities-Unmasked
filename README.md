@@ -97,4 +97,35 @@ One day, your parents find out about a new and better type of brakes that can ma
 
 In the internet world, your bicycle is like a computer system or website, and the parts are like the software components that help it work. Vulnerable and Outdated Components are parts of the software that have known weaknesses or are no longer being updated. These can make the system less secure and more likely to be attacked by hackers. To keep the system safe, it's important to replace these vulnerable components with newer, more secure versions, just like upgrading your bicycle's brakes to stay safe while riding.
 
+## Local File Inclusion (LFI) 
 
+Imagine you have a special box where you keep your favorite drawings, toys, and secret notes. This box is only for you, and no one else is allowed to look inside it. When you want to show someone a drawing, you carefully take it out of the box and share it with them, but they can't see anything else in the box.
+
+One day, a sneaky kid learns about your special box and figures out a way to peek inside without you knowing. They use a clever trick to make you show them not only one drawing but also other things in the box that you didn't want to share.
+
+In the internet world, your special box is like a computer system or website that stores different files and information. Local File Inclusion (LFI) is a type of vulnerability where a hacker finds a way to access files on the system that they shouldn't be able to see. They might use tricks to make the system show them the private files, just like the sneaky kid did with your special box. This can lead to security problems and the exposure of sensitive information.
+
+## Denial of Service (DOS)
+
+Imagine you have a lemonade stand in your neighborhood where you sell lemonade to your friends and neighbors. You can serve one person at a time, and everyone waits in line to buy a cup of lemonade from you.
+
+One day, a sneaky kid decides they want to cause trouble and stop people from getting lemonade from your stand. They keep running to the front of the line and asking for lots of lemonade over and over again, not giving you a chance to serve anyone else. Because you're so busy trying to serve the sneaky kid, your friends and neighbors can't buy any lemonade and have to leave.
+
+In the internet world, your lemonade stand is like a computer system or website, and the people waiting in line are users trying to access it. A Denial of Service (DOS) attack is when a hacker, like the sneaky kid, floods the system with so many requests that it can't handle them all. This makes it hard or impossible for real users to access the system, causing it to stop working or slow down significantly.
+
+## Authentication Bypass
+
+Imagine your school has a special room where only teachers are allowed to go. To enter the room, the teachers use a secret password that they type into a keypad next to the door. The students aren't supposed to know the password, so they can't go into the special room.
+
+One day, a sneaky kid finds out that the keypad has a trick: if they press two buttons at the same time, the door opens without needing the secret password. The sneaky kid uses this trick to go into the special room, even though they're not a teacher and don't know the real password.
+
+In the internet world, the special room is like a computer system or website that has restricted areas that only certain users can access. The secret password is like an authentication process that checks if a user is allowed to enter. Authentication Bypass is when a hacker, like the sneaky kid, finds a way to get around the authentication process and access the restricted areas without having the right permissions. This can lead to security problems and unauthorized access to sensitive information.
+
+
+## Insecure Direct Object Reference (IDOR)
+
+Imagine your school has lockers with numbers from 1 to 100. Each student has their own locker with a unique number, like locker number 23 for Sally and locker number 45 for Timmy. Students are only allowed to open their own locker using a special code that the teacher gives them.
+
+One day, a sneaky kid named Jake realizes that if he knows his own locker number and code, he can easily guess other students' locker numbers and codes. For example, Jake's locker number is 10 and his code is 1234. He quickly figures out that if he adds 1 to his locker number and his code, he can open locker number 11 with the code 1235. He continues this pattern and opens locker number 12 with the code 1236, and so on.
+
+In the internet world, the lockers are like digital objects or files in a computer system or website, and the locker numbers and codes are like the way the system checks if a user is allowed to access a specific object. Insecure Direct Object Reference (IDOR) is a vulnerability where a hacker, like Jake, can figure out a pattern or trick to access other users' objects without the right permission. This can lead to security problems and unauthorized access to sensitive information.
