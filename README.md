@@ -133,3 +133,19 @@ Imagine your school has lockers with numbers from 1 to 100. Each student has the
 One day, a sneaky kid named Jake realizes that if he knows his own locker number and code, he can easily guess other students' locker numbers and codes. For example, Jake's locker number is 10 and his code is 1234. He quickly figures out that if he adds 1 to his locker number and his code, he can open locker number 11 with the code 1235. He continues this pattern and opens locker number 12 with the code 1236, and so on.
 
 In the internet world, the lockers are like digital objects or files in a computer system or website, and the locker numbers and codes are like the way the system checks if a user is allowed to access a specific object. Insecure Direct Object Reference (IDOR) is a vulnerability where a hacker, like Jake, can figure out a pattern or trick to access other users' objects without the right permission. This can lead to security problems and unauthorized access to sensitive information.
+
+## 2FA Bypass
+
+Imagine your school has a special room where only teachers are allowed to go. To enter the room, the teachers need two things: a secret password that they type into a keypad next to the door, and a special sticker that they get from the principal. The sticker has a unique code that changes every day. The students aren't supposed to know the password or have the special sticker, so they can't go into the special room.
+
+One day, a sneaky kid overhears a teacher typing in the secret password. Now they know the password, but they still need the special sticker to get into the room. Instead of trying to get the actual sticker, the sneaky kid figures out a way to guess the unique code that would be on the sticker for that day. They use the secret password and their guessed code to enter the special room, even though they didn't have the real sticker.
+
+In the internet world, the special room is like a computer system or website with extra security that requires two factors to access: a password (the first factor) and another form of verification, like a code sent to a phone (the second factor). This is called Two-Factor Authentication (2FA). A 2FA Bypass is when a hacker, like the sneaky kid, gains access to the password and finds a way to get around the second factor, in this case, by guessing the unique code. This can lead to security problems and unauthorized access to sensitive information.
+
+## Race Condition Vulnerability
+
+Imagine you and your friend have a special piggy bank that counts how many coins are inside. You both have a bunch of coins, and you want to put them into the piggy bank at the same time. The piggy bank has a button that you need to press before you put in a coin, and the button makes the piggy bank count the coin.
+
+You and your friend start putting coins in the piggy bank really fast, pressing the button and then adding a coin. But sometimes, you both press the button at the same time, and the piggy bank gets confused. It only counts one coin instead of two, even though both of you put in a coin.
+
+In the internet world, computer systems and websites have many tasks and processes happening at the same time, just like you and your friend putting coins in the piggy bank. A Race Condition bug is when two or more tasks try to access or change the same resource, like the piggy bank's coin counter, at the same time and in a way that wasn't planned. This can cause unexpected outcomes and problems, like the piggy bank not counting all the coins correctly.
