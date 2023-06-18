@@ -17,6 +17,8 @@
  - [Denial of Service (DOS)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#denial-of-service-dos)
  - [Authentication Bypass](https://github.com/devanshbatham/Vulnerabilities-Unmasked#authentication-bypass)
  - [Insecure Direct Object Reference (IDOR)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#insecure-direct-object-reference-idor)
+ - [2FA Bypass](https://github.com/devanshbatham/Vulnerabilities-Unmasked#2fa-bypass)
+ - [Race Condition Vulnerability](https://github.com/devanshbatham/Vulnerabilities-Unmasked#race-condition-vulnerability)
 
 
  ## Cross-Site Scripting (XSS)
