@@ -71,3 +71,11 @@ One day, there is a mistake in the system that gives out the special jobs. One d
 Now the new student can do things they're not supposed to, like checking out books or changing library rules. This can cause problems in the library and make it harder for the real librarian to do their job.
 
 In the internet world, the library is like a computer system or website, and the special jobs are the roles in Role-Based Access Control (RBAC). An RBAC vulnerability is when there's a mistake or weakness in the system that gives out the roles. This can accidentally give users more permissions or access than they should have, which can lead to problems and security risks in the system.
+
+## SSRF
+
+Imagine your school has a special robot that can go to the store and buy snacks for the teachers. The teachers write down what they want on a list, and the robot follows the list to get the snacks. The robot is only allowed to go to the store and back to school, and it can't go anywhere else.
+
+One day, a sneaky kid finds out about the robot and decides to trick it. They write down their own list, asking the robot to go to their house and bring back some of their favorite toys. The robot doesn't know any better, so it follows the list and brings the toys back to the sneaky kid.
+
+In the internet world, the special robot is like a server that can make requests to other websites or services. The teachers' list is like a user's request. SSRF, or Server-Side Request Forgery, is a vulnerability where a sneaky person, like a hacker, tricks the server into making requests it shouldn't. This can cause problems and security risks, like accessing private information or services that should be off-limits.
