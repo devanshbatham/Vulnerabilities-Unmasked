@@ -4,9 +4,17 @@
  
  ## List of Contents
  
- 
- 
- 
+ - [Cross-Site Scripting (XSS)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#cross-site-scripting-xss)
+ - [Cross-Site Request Forgery (CSRF)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#cross-site-request-forgery-csrf)
+ - [SQL Injection](https://github.com/devanshbatham/Vulnerabilities-Unmasked#sql-injection)
+ - [ClickJacking](https://github.com/devanshbatham/Vulnerabilities-Unmasked#clickjacking) 
+ - [Subdomain Takeover](https://github.com/devanshbatham/Vulnerabilities-Unmasked#subdomain-takeover)
+ - [Privilege Escalation](https://github.com/devanshbatham/Vulnerabilities-Unmasked#privilege-escalation)
+ - [Role-Based Access Control (RBAC) Vulnerabilities](https://github.com/devanshbatham/Vulnerabilities-Unmasked#role-based-access-control-rbac-vulnerabilities)
+ - [Server-Side Request Forgery (SSRF)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#server-side-request-forgery-ssrf)
+ - [Vulnerable and Outdated Components](https://github.com/devanshbatham/Vulnerabilities-Unmasked#vulnerable-and-outdated-components)
+
+
  ## Cross-Site Scripting (XSS)
 
 Imagine you have a toy box where you and your friends can put your favorite toys in and take them out whenever you want. Each of you can only take out your own toys.
