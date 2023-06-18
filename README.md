@@ -13,6 +13,10 @@
  - [Role-Based Access Control (RBAC) Vulnerabilities](https://github.com/devanshbatham/Vulnerabilities-Unmasked#role-based-access-control-rbac-vulnerabilities)
  - [Server-Side Request Forgery (SSRF)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#server-side-request-forgery-ssrf)
  - [Vulnerable and Outdated Components](https://github.com/devanshbatham/Vulnerabilities-Unmasked#vulnerable-and-outdated-components)
+ - [Local File Inclusion (LFI)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#local-file-inclusion-lfi)
+ - [Denial of Service (DOS)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#denial-of-service-dos)
+ - [Authentication Bypass](https://github.com/devanshbatham/Vulnerabilities-Unmasked#authentication-bypass)
+ - [Insecure Direct Object Reference (IDOR)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#insecure-direct-object-reference-idor)
 
 
  ## Cross-Site Scripting (XSS)
