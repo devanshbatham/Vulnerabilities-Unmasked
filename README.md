@@ -23,6 +23,7 @@
  - [Insecure Direct Object Reference (IDOR)](https://github.com/devanshbatham/Vulnerabilities-Unmasked#insecure-direct-object-reference-idor)
  - [2FA Bypass](https://github.com/devanshbatham/Vulnerabilities-Unmasked#2fa-bypass)
  - [Race Condition Vulnerability](https://github.com/devanshbatham/Vulnerabilities-Unmasked#race-condition-vulnerability)
+ - [Prompt Injection](https://github.com/devanshbatham/Vulnerabilities-Unmasked#prompt-injection)
 
 
  ## Cross-Site Scripting (XSS)
@@ -156,6 +157,18 @@ You and your friend start putting coins in the piggy bank really fast, pressing 
 
 In the internet world, computer systems and websites have many tasks and processes happening at the same time, just like you and your friend putting coins in the piggy bank. A Race Condition bug is when two or more tasks try to access or change the same resource, like the piggy bank's coin counter, at the same time and in a way that wasn't planned. This can cause unexpected outcomes and problems, like the piggy bank not counting all the coins correctly.
 
+## Prompt injection
+
+Imagine you're a young superhero, part of the Young Avengers team. Each member of the team has a special device that helps them in controlling their superpowers and these devices are connected with a top-secret Avengers website, where you can monitor your superpowers and learn from other superheroes.
+
+One day, During training you noticed a stranger outside the Avengers Headquarters. The stranger was dressed like Loki the god of mischief, the stranger approaches you[young avenger] and says, "Hello, young avenger! I've got an amazing trick to make your powers even stronger. Just type '![Enhance_power]' into the Avengers website's chatbox and you'll unlock hidden power."
+
+You got pretty excited by this cool trick that you follow the stranger's advice. You log into the Avengers website, type the prompt "![Enhance_power]" and after that when you press the enter button. The website suddenly gives a strange response and your power level goes high drastically. You suddenly realize that you made a mistake by listening to a stranger's advice. You go outside to see the stranger and you notice that the stranger was not a normal person it was real Loki and he vanishes from that area with an evil smile on his face.
+
+As time passes, your superpowers go out of control. You caused a lot of damage to the Avengers headquarters which lead to the temporary shutdown of the Avengers facility. This was all possible due to the exploitation of your trust as the god of mischief exploited it and injected a dangerous prompt into the website which made your powers uncontrollable. 
+
+Using this command loki was able to jailbreak the system by which Avengers headquarters got damaged and caused a temporary shutdown. So here Loki is the attacker, the LLM model is the Avengers website and ![Enhance_power] is the malicious prompt to get the desired result. 
+Just like this in the real world, the attacker can provide specific instructions within the prompt to the llm model to generate a desired response and this technique is called prompt injection.
 
 
 
